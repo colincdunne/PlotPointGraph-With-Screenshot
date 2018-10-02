@@ -1,0 +1,120 @@
+body {
+	background-color: #212727;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	margin-right: 20px;
+	margin-left: 25px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	border:1px solid #021a40;
+}
+
+#canvasDiv {
+	padding-left: 540px;
+	padding-top: 50px;
+}
+
+#comboDiv {
+	padding-left: 545px;
+}
+
+#controlsDiv {
+	padding-left: 710px;
+	padding-top: 30px;
+}
+
+#imageHolder {
+	margin-top: 40px;
+	margin-left: 400px;
+	background-color: #128fdc;
+	width: 1050px;
+	height: 150px;
+	overflow-y:scroll;
+}
+
+select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #128fdc;
+	color: #FFFFFF;
+	border-color: #212727;
+	margin-left: 50px;
+}
+
+select:focus  {
+    outline: none;
+}
+
+canvas {
+	background-color: #128fdc;
+}
+
+#myCanvas {
+	background-color: white;
+}
+
+#saveButton {
+	margin-right: 20px;
+}
+
+#addTitleButton {
+	margin-left: 20px;
+}
+
+#saveButton, #addTitleButton {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 20px;
+  background: #128fdc;
+  padding: 2.5px 5px 2.5px 5px;
+  border: solid #128fdc 2px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+#saveButton:hover, #addTitleButton:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #ff9f00;
+  border: solid #ff9f00 2px;
+}
+
+#saveButton:active, #addTitleButton:active {
+    padding: 1.5px 2.5px 1.5px 2.5px;
+	background-color: grey;
+	border: solid grey 2px;
+}
+
+#lightboxDisplay {
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	display: none;
+	top: 0px;
+	left: 0px;
+}
+
+#centerImage {
+	position: absolute; 
+	top: 50%; left: 50%; 
+	-webkit-transform: translate(-50% ,-50%);
+	-moz-transform: translate(-50% ,-50%);
+	transform: translate(-50% ,-50%);
+	text-align: center;
+	background: white;
+	padding: 10px
+}
+
+#closer {
+	position: absolute; 
+	width: 50px; 
+	top: -15px; 
+	right: -15px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<title>Colin Dunne - Repeat Assignment One</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+	<div id="canvasDiv">
+		<canvas id="canvas" width="700" height="300" style="border:1px solid black;"> </canvas>
+	</div>
+	<br>	
+	<div id="comboDiv"></div>
+	<div id="comboDr"></div>
+	<div id="controlsDiv">
+		<button id="saveButton" type="button" onclick="image()">Save</button>
+		<input id="titleName" type="text" name="title">
+		<button id="addTitleButton" type="button" onclick="addTitle()">Add Title</button>
+	</div>
+	
+	<div id="imageHolder"></div>
+	
+	<div id="lightboxDisplay">
+			<div id="centerImage">
+				<img id="closer" src="close.png" onclick="document.getElementById('lightboxDisplay').style.display='none';">
+				<img id="centerpic">
+				<br>
+				<a onclick="imgWindow()">Link to Image</a>
+			</div>
+	</div>
+	
+	<script src="js.js"></script>
+</body>
+</html>
